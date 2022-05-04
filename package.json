@@ -1,0 +1,24 @@
+{
+  "name": "customized-fields-validation",
+  "version": "0.0.1",
+  "description": "customized-fields-validation for ipss",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VijayakumarDuraisamy/customized-fields-validation.git"
+  },
+  "author": "Vijayakumar Duraisamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VijayakumarDuraisamy/customized-fields-validation/issues"
+  },
+  "homepage": "https://github.com/VijayakumarDuraisamy/customized-fields-validation#readme",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^8.8.0",
+    "yup": "^0.32.11"
+  }
+}
