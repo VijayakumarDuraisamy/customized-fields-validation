@@ -57,6 +57,14 @@ function customValidations(validations) {
                     then: yup.string().oneOf([yup.ref("password")], "Password doesn't match")
                 })
         },
+        {
+            phoneNumber: yup
+                .string()
+                .required("Please enter phone number")
+                .matches(/^.((\+*)((0[ -]*)*|((91 )*))((\d{12})+|(\d{10})+))|\d{5}([- ]*)\d{6}.*$/,
+                    "Phone number must contain 10 digits with our without +91 and or - indian format")
+        },
+        
 
     )
     return (validations);
